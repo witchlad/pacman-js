@@ -1,0 +1,84 @@
+@keyframes color{
+   0% {
+    background-color: #222;
+    border: 2px solid white;
+  }
+  50% {
+    background-color: pink;
+    border: 4px solid white;
+  }
+  100% {
+    background-color: #222;
+    border: 1px solid white;
+  }
+}
+
+html, body {
+    padding: 10;
+    text-align:center;
+    
+}
+
+.grid {
+    margin-left:auto;
+    margin-right:auto;
+    width: 420px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width:15px;
+    height:15px;
+}
+
+.pac-dot{
+    background-color: #070b34;
+    border: 6px solid white;
+    box-sizing: border-box;
+}
+
+.wall{
+    background-color:#070b34;
+}
+
+.power-pellet{
+    background-color:#855988;
+    border-radius:7.5px;
+    box-sizing: border-box;
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.pacman{
+    background-color:orange;
+    border-radius: 7.5px;
+    border: none;
+}
+
+.blinky{
+    background-color:red;
+    border:none;
+}
+
+.pinky{
+    background-color:pink;
+    border:none;
+}
+
+.inky{
+    background-color:aqua;
+    border:none;
+}
+
+.clyde{
+    background-color:orange;
+    border:none;
+}
+
+.scared-ghost{
+    background-color:aquamarine;
+    border:none;
+}
